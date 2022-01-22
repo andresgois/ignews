@@ -53,7 +53,20 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Comments
 
-##### Lucas Cafieiro Alves Bittencourt
+##### Importantes
 - Aproveitando para agregar um pouco mais de informação, em relação ao seu comentário sobre fazer deploy em Vercel. Muitas vezes quando as pessoas falam sobre o Next.js, amarram muito na questão do deploy com Vercel, mas é possível fazer containerização e deploy de Next.js em qualquer plataforma que tenha suporte a rodar um servidor Node. No meu caso, eu trabalho com GCP, e só precisa de algumas configurações bem simples para colocar o app para rodar no App Engine ou configurá-lo em um container no Cloud Run.
 
-- Como a dúvida já foi muito bem respondida, espero que essa pequena informação possa agregar algo para quem ainda está aprendendo sobre o mundo do deploy e do DevOps.
+
+## API Hoots
+- File system root
+  - Páginas dentro de pages com exceção de _documents e _app
+
+
+## Authenticação
+- JWT (Storage)
+- Next Auth (Social)
+- Cognito, Auth0
+
+
+### Next Auth
+[Next Auth](https://next-auth.js.org/getting-started/example)
