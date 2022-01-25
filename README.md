@@ -67,6 +67,26 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Next Auth (Social)
 - Cognito, Auth0
 
+## Três formas de pegar informações
+- Client-side
+ - quando não precisa de indexação
+ - informação carregada através de uma ação do usuário
+ - EXEMPLO
+   - Post do blog
+   - Conteúdo (SSG)
+   - Comentários (Client-side)
+- Server-side
+ - quando precisa de indexação
+ - dados dinâmicos da sessção do usuário
+- Static Side Generation
+ - Gerar uma página e compartilhar com todos, página de pr
+ - páginas que precisam de SEO
+  
+
+## três lugares onde se pode usar variaveis secretas
+- getServerSideProps (SSR)
+- getStatisProps (SSG)
+- API routes
 
 ### Next Auth
 [Next Auth](https://next-auth.js.org/getting-started/example)
